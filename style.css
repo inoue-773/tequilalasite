@@ -1,0 +1,81 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 5616px;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    height: 6144px;
+  }
+  
+  .desktop .background {
+    position: absolute;
+    width: 1440px;
+    height: 6144px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .image {
+    width: 1440px;
+    height: 1520px;
+    top: 4096px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .img {
+    width: 1440px;
+    height: 2048px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-2 {
+    width: 1440px;
+    height: 2048px;
+    top: 2048px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-3 {
+    width: 1293px;
+    height: 1700px;
+    top: 3420px;
+    left: 65px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-4 {
+    width: 1311px;
+    height: 1700px;
+    top: 1745px;
+    left: 57px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .header {
+    position: absolute;
+    width: 1440px;
+    height: 121px;
+    top: 0;
+    left: 0;
+  }
+  
